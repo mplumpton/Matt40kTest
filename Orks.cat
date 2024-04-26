@@ -3457,24 +3457,6 @@ If this unit’s Bodyguard unit is destroyed, Ghazghkull Thraka and Makari becom
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of those rolls is a 4+, you gain 1CP</characteristic>
           </characteristics>
-		  <profile name="Armed to Da Teef" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1f6-dbea-fe70-ee92d">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Reroll hits of 1 (shooting or fighting). OR Reroll all hits in the Waaagh!</characteristics>
-		  <profile name="Too Arrogant to Die" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1f6-dbea-fe70-ee93d">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Unit attacked gets to either shoot or fight on death on a 5+ (3+ during Waaagh!)</characteristics>
-		  <profile name="Always looking fer a fight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1f6-dbea-fe70-ee94d">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When you destroy an enemy unit in the fight phase, consolidate D3+3 OR 6" in the Waagh!</characteristics>
-		  <profile name="Crushing Impact" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1f6-dbea-fe70-ee95d">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After you charge; roll 1d6 per model in engagement range of the Enemy. 5+ = 1 Mortal wound. 4+ in the Waaagh! Capped at 6MW.</characteristics>
-		  <profile name="Cut Em Down" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1f6-dbea-fe70-ee96d">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When an enemy falls back, they must take a desperate escape attempt test. (-1 to their roll in the Waaagh!)</characteristics>
-		  <profile name="Hulking Brutes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1f6-dbea-fe70-ee97d">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Worsen AP by -1 during shooting phase against this unit.</characteristics>
         </profile>
       </profiles>
       <infoLinks>
