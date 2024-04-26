@@ -6368,7 +6368,7 @@ Designer’s Note: Place the relevant number of Ammo Runt tokens next to the uni
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="105"/>
-      </costs>4
+      </costs>
       <modifiers>
         <modifier type="set" value="210" field="51b2-306e-1021-d207">
           <conditions>
