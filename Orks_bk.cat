@@ -113,7 +113,7 @@
                     <profile name="Killkannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4991-c399-ec31-e536">
                       <characteristics>
                         <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+1</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
@@ -5022,7 +5022,7 @@ Designer’s Note: Place a Bomb Squig token next to the unit, removing it when t
           <profiles>
             <profile name="Krumpin’ Time" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="19eb-919d-254f-18e1">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">During the battle round in which you call a Waaagh!, 4+ feel no pain.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">During the battle round in which you call a Waaagh!, 4+ Feel no Pain.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5836,9 +5836,14 @@ Designer’s Note: Place a Bomb Squig token next to the unit, removing it when t
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hogboss" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eb9e-29c0-76b4-fa72">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5864,6 +5869,7 @@ Designer’s Note: Place a Bomb Squig token next to the unit, removing it when t
             </profile>
           </profiles>
         </infoGroup>
+      </infoGroups>
       <categoryLinks>
         <categoryLink targetId="14a0-40c9-2748-ae6e" id="f54c-dc4f-9253-2333" primary="false" name="Mounted"/>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="dad5-b510-a3a0-af97" primary="true" name="Character"/>
@@ -5882,7 +5888,7 @@ Designer’s Note: Place a Bomb Squig token next to the unit, removing it when t
         </entryLink>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Squighog Jaws and Saddlegits" hidden="false" id="ffc4-6d94-5b76-150b">
+        <selectionEntry type="upgrade" import="true" name="Smasha squig jaws" hidden="false" id="ffc4-6d94-5b76-150b">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d250-14e0-fa-2f7b"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1fb-e48d-55fa-ccba"/>
@@ -5891,7 +5897,7 @@ Designer’s Note: Place a Bomb Squig token next to the unit, removing it when t
             <profile name="Smasha squig jaws" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="492b-d4f8-a2a2-a3a1">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
@@ -5913,7 +5919,7 @@ Designer’s Note: Place a Bomb Squig token next to the unit, removing it when t
             <profile name="Big choppa" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a5e2-a02a-aef1-b6e9">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
@@ -5928,7 +5934,7 @@ Designer’s Note: Place a Bomb Squig token next to the unit, removing it when t
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="1"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Mozrog Skragbad" hidden="false" id="b42b-ea0-38f1-6300">
@@ -6148,7 +6154,7 @@ Designer’s Note: Place a Bomb Squig token next to the unit, removing it when t
         </profile>
         <profile name="Da Boss’ Ladz" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c44-b390-e18d-9712">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a WARBOSS model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll if strength higher than toughness.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a WARBOSS model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll if the strength is greater than this units toughness.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6361,10 +6367,10 @@ Designer’s Note: Place the relevant number of Ammo Runt tokens next to the uni
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="110"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="105"/>
       </costs>
       <modifiers>
-        <modifier type="set" value="220" field="51b2-306e-1021-d207">
+        <modifier type="set" value="210" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="greaterThan" value="5" field="selections" scope="b16a-7132-3f8a-abe5" childId="model" shared="true"/>
           </conditions>
@@ -6937,7 +6943,7 @@ Designer’s Note: Place the relevant number of Bomb Squig tokens next to the un
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="160"/>
       </costs>
       <modifiers>
         <modifier type="set" value="250" field="51b2-306e-1021-d207">
@@ -11802,10 +11808,10 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">2D6</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">D6+6</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">5</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-vehicle 4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11821,7 +11827,7 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
@@ -11830,7 +11836,7 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
         <profile name="➤ Kannon - frag" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ad9-ed17-a724-9191">
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+3</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
